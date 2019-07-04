@@ -1,0 +1,2 @@
+# fgcinfo
+Fantasy Gold Info
