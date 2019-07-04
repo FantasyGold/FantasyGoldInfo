@@ -1,0 +1,18 @@
+{
+  "name": "fantasygoldinfo-ws",
+  "version": "0.0.1",
+  "description": "A FGC blockchain REST and websocket API service for FantasyGoldinfo Node",
+  "main": "index.js",
+  "repository": "https://github.com/FantasyGold/fantasygoldinfo/tree/master/packages/fantasygoldinfo-rpc.git",
+  "keywords": [
+    "fantasygold",
+    "fantasygoldinfo"
+  ],
+  "author": "silence <silence@draftdaily.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fantasygoldinfo-lib": "fantasygoldinfo-lib",
+    "fantasygoldinfo-node": "fantasygoldinfo-node",
+    "ws": "^6.0.0"
+  }
+}

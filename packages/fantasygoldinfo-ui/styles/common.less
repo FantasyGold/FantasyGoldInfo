@@ -1,0 +1,70 @@
+@import 'variables.less';
+
+.break-word {
+  word-break: break-all;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.button.is-fantasygold {
+  border-color: transparent;
+  background-color: @fantasygold;
+  color: white;
+
+  &:hover, .is-hovered {
+    background-color: darken(@fantasygold, 3%);
+    color: white;
+  }
+
+  &:focus, .is-focused {
+    outline: none;
+    color: white;
+    &:not(:active) {
+      box-shadow: 0 0 0 0.125rem fade(@fantasygold, 25%);
+    }
+  }
+
+  &:active, .is-actived {
+    outline: none;
+    background-color: darken(@fantasygold, 5%);
+    color: white;
+  }
+
+  &.is-outlined {
+    border-color: @fantasygold;
+    background-color: transparent;
+    color: @fantasygold;
+    &:hover, .is-hovered {
+      border-color: @fantasygold;
+      background-color: @fantasygold;
+      color: white;
+    }
+  }
+
+  &.is-inverted {
+    background-color: white;
+    color: @fantasygold;
+    &:hover, .is-hovered {
+      background-color: #f2f2f2;
+      color: white;
+    }
+  }
+
+  &.is-outlined.is-inverted {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    &:hover {
+      background-color: white;
+      color: @fantasygold;
+    }
+  }
+
+  &[disabled] {
+    border-color: transparent;
+    background-color: @fantasygold;
+    box-shadow: none;
+  }
+}

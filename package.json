@@ -1,0 +1,30 @@
+{
+  "name": "fantasygoldinfo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "lerna": "lerna",
+    "lint": "eslint --ext .js,.mjs packages --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FantasyGold/fantasygoldinfo.git"
+  },
+  "keywords": [
+    "fantasygold",
+    "fantasygoldinfo",
+    "fantasygold explorer"
+  ],
+  "author": "silence <silence@draftdaily.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FantasyGold/fantasygoldinfo/issues"
+  },
+  "homepage": "https://github.com/FantasyGold/fantasygoldinfo#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "lerna": "^3.0.3"
+  }
+}

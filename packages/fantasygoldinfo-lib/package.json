@@ -1,0 +1,20 @@
+{
+  "name": "fantasygoldinfo-lib",
+  "version": "0.0.1",
+  "description": "A pure and powerful JavaScript FGC library",
+  "main": "lib/index.mjs",
+  "keywords": [
+    "fantasygold",
+    "fantasygoldinfo"
+  ],
+  "repository": "https://github.com/FantasyGold/fantasygoldinfo/tree/master/fantasygoldinfo-lib",
+  "author": "silence <silence@draftdaily.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ethereumjs-abi": "^0.6.5",
+    "fantasygold-opcodes": "fantasygold-opcodes",
+    "secp256k1": "^3.5.0"
+  }
+}
+
+

@@ -1,0 +1,12 @@
+{
+    "name": "explorer-mainnet",
+    "private": true,
+    "scripts": {
+        "start": "node ../fantasygoldinfo-node/bin/fantasygoldinfo-node.js start"
+    },
+    "dependencies": {
+        "fantasygoldinfo-api": "fantasygoldinfo-api",
+        "fantasygoldinfo-node": "fantasygoldinfo-node",
+        "fantasygoldinfo-ws": "fantasygoldinfo-ws"
+    }
+}

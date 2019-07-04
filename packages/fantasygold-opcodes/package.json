@@ -1,0 +1,23 @@
+{
+  "name": "fantasygold-opcodes",
+  "version": "1.0.0",
+  "description": "The FANTASYGOLD opcodes map",
+  "main": "./index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FantasyGold/fantasygold-opcodes-js.git"
+  },
+  "keywords": [
+    "fantasygold",
+    "opcodes"
+  ],
+  "author": "Silence48",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FantasyGold/fantasygold-opcodes-js/issues"
+  },
+  "homepage": "https://github.com/FantasyGold/fantasygold-opcodes-js#readme"
+}
