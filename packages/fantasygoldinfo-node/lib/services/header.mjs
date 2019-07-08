@@ -19,7 +19,7 @@ export default class HeaderService extends Service {
     this._lastHeader = null
     this._initialSync = true
     this._originalHeight = 0
-    this._lastHeaderCount = 8800 // and this
+    this._lastHeaderCount = 0 // and this
   }
 
   static get dependencies() {

@@ -16,7 +16,7 @@
     "koa-cors": "^0.0.16",
     "koa-morgan": "^1.0.1",
     "koa-router": "^7.4.0",
-    "fantasygoldinfo-lib": "fantasygoldinfo-lib",
-    "fantasygoldinfo-node": "fantasygoldinfo-node"
+    "fantasygoldinfo-lib": "^0.0.1",
+    "fantasygoldinfo-node": "^0.0.1"
   }
 }

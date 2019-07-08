@@ -68,7 +68,7 @@
           let title = this.$t('notification.new_transaction_received')
           let options = {
                 body: transaction.id,
-                icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/FantasyGold_logo.svg/102px-FantasyGold_logo.svg.png',
+                icon: 'https://www.fantasygold.io/wp-content/uploads/2018/09/logo.png',
                 data: transaction,
                 renotify: true,
                 tag: 'transaction/' + transaction.id

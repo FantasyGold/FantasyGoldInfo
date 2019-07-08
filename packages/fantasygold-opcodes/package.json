@@ -1,6 +1,6 @@
 {
   "name": "fantasygold-opcodes",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The FANTASYGOLD opcodes map",
   "main": "./index.json",
   "scripts": {
@@ -14,7 +14,7 @@
     "fantasygold",
     "opcodes"
   ],
-  "author": "Silence48",
+  "author": "silence <silence@draftdaily.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FantasyGold/fantasygold-opcodes-js/issues"

@@ -20,7 +20,7 @@
         "db": {
         "mongodb": {
             "url": "mongodb://localhost:27017/",
-            "database": "explorer"
+            "database": "fantasygoldinfo-mainnet"
         },
         "rpc": {
             "protocol": "http",

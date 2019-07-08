@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "FANTASYGOLDINFO_API_BASE_CLIENT=/api/ FANTASYGOLDINFO_API_BASE_SERVER=http://localhost:3001/fantasygoldinfo-api/ FANTASYGOLDINFO_API_BASE_WS=//localhost:3002/ws/ nuxt build",
-    "start": "PORT=3003 nuxt start"
+    "start": "PORT=12345 nuxt start"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "fantasygoldinfo",
     "fantasygold explorer"
   ],
-  "author": "",
+  "author": "silence <silence@draftdaily.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fantasygold/fantasygoldinfo-ui/issues"

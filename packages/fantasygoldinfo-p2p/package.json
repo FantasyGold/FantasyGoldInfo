@@ -11,6 +11,6 @@
   "author": "silence <silence@draftdaily.com>",
   "license": "MIT",
   "dependencies": {
-    "fantasygoldinfo-lib": "fantasygoldinfo-lib"
+    "fantasygoldinfo-lib": "^0.0.1"
   }
 }

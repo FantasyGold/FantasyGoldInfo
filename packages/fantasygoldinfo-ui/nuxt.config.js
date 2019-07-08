@@ -45,7 +45,7 @@ export default {
       }
     }
   },
-  serverMiddleware: ['packages/fantasygoldinfo-ui/middleware/ip.js'],
+  serverMiddleware: ['middleware/ip.js'],
   plugins: [
     '~/plugins/components.js',
     '~/plugins/i18n.js',

@@ -1,7 +1,7 @@
 import util from 'util'
 import {BufferReader, BufferWriter, Hash} from '..'
 
-const GENESIS_BITS = 0x1f00ffff
+const GENESIS_BITS = 0x1d00ffff
 
 export default class Header {
   constructor({

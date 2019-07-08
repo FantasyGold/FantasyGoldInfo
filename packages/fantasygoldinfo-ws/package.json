@@ -11,8 +11,8 @@
   "author": "silence <silence@draftdaily.com>",
   "license": "MIT",
   "dependencies": {
-    "fantasygoldinfo-lib": "fantasygoldinfo-lib",
-    "fantasygoldinfo-node": "fantasygoldinfo-node",
+    "fantasygoldinfo-lib": "^0.0.1",
+    "fantasygoldinfo-node": "^0.0.1",
     "ws": "^6.0.0"
   }
 }
