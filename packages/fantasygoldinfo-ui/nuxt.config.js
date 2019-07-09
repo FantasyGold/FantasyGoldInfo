@@ -34,7 +34,7 @@ export default {
           || 'http://localhost:3001/fantasygoldinfo-api/'),
         'process.env.fantasygoldinfoWSBase': JSON.stringify(process.env.FANTASYGOLDINFO_WS_BASE
           || process.env.FANTASYGOLDINFO_API_BASE_WS
-          || 'localhost:3002/fantasygoldinfo-ws/'),
+          || '//localhost:3002/fantasygoldinfo-ws/'),
         'process.env.network': JSON.stringify(process.env.FGC_NETWORK || 'mainnet')
       }))
     },
@@ -45,7 +45,7 @@ export default {
       }
     }
   },
-  serverMiddleware: ['middleware/ip.js'],
+  serverMiddleware: ['/home/silence/newfgc/fgcinfoinstall/packages/fantasygoldinfo-ui/middleware/ip.js'], // update this path
   plugins: [
     '~/plugins/components.js',
     '~/plugins/i18n.js',

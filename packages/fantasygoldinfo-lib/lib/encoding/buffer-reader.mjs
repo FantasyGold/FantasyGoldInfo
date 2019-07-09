@@ -48,6 +48,7 @@ export default class BufferReader {
   readUInt32LE() {
     let value = this.buffer.readUInt32LE(0)
     this.buffer = this.buffer.slice(4)
+    //console.log(this.buffer)
     return value
   }
 

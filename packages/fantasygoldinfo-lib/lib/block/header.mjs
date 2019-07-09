@@ -26,17 +26,29 @@ export default class Header {
   }
 
   static fromBufferReader(reader) {
+    //console.log('FROM BUFFER READER INFO')
     let version = reader.readInt32LE()
+    //console.log('version: ', version)
     let prevHash = Buffer.from(reader.read(32)).reverse()
+    //console.log('prehash: ', prevHash.toString('hex'))
     let merkleRoot = Buffer.from(reader.read(32)).reverse()
+    //console.log('merkleroot: ', merkleRoot.toString('hex'))
     let timestamp = reader.readUInt32LE()
+    //console.log('timestamp: ', timestamp.toString())
     let bits = reader.readUInt32LE()
+    //console.log('bits: ', bits.toString())
     let nonce = reader.readUInt32LE()
+    //console.log('nonce: ', nonce.toString())
     let hashStateRoot = Buffer.from(reader.read(32)).reverse()
+    //console.log('hashStateRoot: ', hashStateRoot.toString('hex'))
     let hashUTXORoot = Buffer.from(reader.read(32)).reverse()
+    //console.log('hashUTXORoot: ', hashUTXORoot.toString('hex'))
     let prevOutStakeHash = Buffer.from(reader.read(32)).reverse()
+    //console.log('prevOutStakeHash: ', prevOutStakeHash.toString('hex'))
     let prevOutStakeN = reader.readUInt32LE()
+    //console.log('prevOutStakeN: ', prevOutStakeN.toString())
     let signature = reader.readVarLengthBuffer()
+    //console.log('signature: ', signature.toString())
     return new Header({
       version, prevHash, merkleRoot, timestamp, bits, nonce,
       hashStateRoot, hashUTXORoot, prevOutStakeHash, prevOutStakeN, signature

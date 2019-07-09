@@ -3,7 +3,8 @@
     "private": true,
     "author": "silence <silence@draftdaily.com>",
     "scripts": {
-        "start": "fantasygoldinfo-node start"
+        "start": "fantasygoldinfo-node start",
+        "start-debug": "node --inspect-brk ../fantasygoldinfo-node/bin/fantasygoldinfo-node.js start"
     },
     "dependencies": {
         "fantasygoldinfo-api": "^0.0.1",

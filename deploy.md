@@ -1,18 +1,22 @@
 # How to deploy fantasygoldinfo and fantasygoldinfo-ui
 
 ## Prerequisites
+
 * node.js v10.5+
 * mongodb v4.0+
 
 ## Deploy fantasygold core
-1. `git clone --recursive https://github.com/xuanyan0x7c7/fantasygold.git` <b>Caution! This is not the official fantasygold repo!</b>
-2. Follow the instructions [https://github.com/FantasyGold/fantasygold#building-fantasygold-core]() to build fantasygold
+
+1. `git clone --recursive https://github.com/fantasygold/fantasygold-core.git`
+2. Follow the instructions [Located Here](https://github.com/FantasyGold/fantasygold-core#building-fantasygold-core) to build fantasygold
 3. Run `fantasygoldd` with `-logevents=1` enabled
 
 ## Deploy fantasygoldinfo
+
 1. `git clone https://github.com/FantasyGold/fantasygoldinfo.git && cd fantasygoldinfo`
 2. `npm install`
 3. `mkdir packages/explorer` (you may change the directory name) and write files `package.json` and `fantasygoldinfo-node.json` to it
+
     ```json
     // package.json
     {
@@ -28,6 +32,7 @@
         }
     }
     ```
+
     ```json
     // fantasygoldinfo-node.json
     {
@@ -78,10 +83,12 @@
         }
     }
     ```
+
 4. `npm run lerna bootstrap`
 5. run `npm start` in `packages/explorer` directory
 
 ## Deploy fantasygoldinfo-ui
+
 1. `git clone https://github.com/FantasyGold/fantasygoldinfo-ui.git && cd fantasygoldinfo-ui` is this supposed to say ui?
 2. `npm install` \
     You may modify `package.json` as follows:

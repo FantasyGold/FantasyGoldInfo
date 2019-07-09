@@ -5,7 +5,7 @@ import Service from './base'
 import {AsyncQueue} from '../utils'
 
 const MAX_CHAINWORK = 1n << 256n
-const STARTING_CHAINWORK = 0x10001n //could be 
+const STARTING_CHAINWORK = 0x100010001n  
 
 export default class HeaderService extends Service {
   constructor(options) {
@@ -14,12 +14,12 @@ export default class HeaderService extends Service {
     this._tip = null
     this._hashes = []
     this.subscriptions = {block: []}
-    this._checkpoint = options.checkpoint || 0 //could be
+    this._checkpoint = options.checkpoint || 2000 
     this._genesisHeader = RawHeader.fromBuffer(this.chain.genesis)
     this._lastHeader = null
     this._initialSync = true
     this._originalHeight = 0
-    this._lastHeaderCount = 0 // and this
+    this._lastHeaderCount = 2000 
   }
 
   static get dependencies() {

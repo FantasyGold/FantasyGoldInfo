@@ -682,7 +682,9 @@ export default class BlockService extends Service {
       this.on('synced', this._onSynced.bind(this))
       clearInterval(this._reportInterval)
       if (this._tip.height === 0) {
+        
         let genesisBlock = RawBlock.fromBuffer(this.chain.genesis)
+        console.log(this.chain.genesis.toString())
         genesisBlock.height = 0
         await this._saveBlock(genesisBlock)
       }
