@@ -6,18 +6,18 @@
       <a href="mailto:info@fantasygold.io">info@fantasygold.io</a>
       <ul class="links">
         <li>
-          <a target="_blank" href="https://www.facebook.com/FantasyGoldOfficial/">
+          <a target="_blank" href="https://www.facebook.com/FantasyGoldCoin/">
             <Icon icon="facebook" brands /> {{ $t('footer.facebook') }}
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/fantasygold">
+          <a target="_blank" href="https://twitter.com/fantasygoldcoin">
             <Icon icon="twitter" brands /> {{ $t('footer.twitter') }}
           </a>
         </li>
         <li>
           <a target="_blank" href="https://discord.gg/tPMRddh">
-            <span class="fantasygold-icon fantasygold-icon--fantasygold"></span> {{ $t('footer.forum') }}
+            <Icon icon="discord" brands /> Discord
           </a>
         </li>
         <li>

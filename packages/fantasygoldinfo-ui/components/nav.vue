@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-brand is-size-4">
       <nuxt-link to="/" class="navbar-item navbar-logo">
-        <span class="fantasygold-icon fantasygold-icon--fantasygold" /> fantasygold.network
+        <img src="@/icons/fgc64.png" /> FantasyGold.Network
       </nuxt-link>
       <button type="button" class="button navbar-burger" @click="showMenu = !showMenu">
         <span></span><span></span><span></span>
