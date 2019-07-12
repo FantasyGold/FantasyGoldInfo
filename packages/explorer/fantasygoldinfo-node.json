@@ -1,7 +1,7 @@
 {
     "chain": "mainnet",
     "port": 3001,
-    "datadir": ".fantasygold",
+    "datadir": "/home/fgcinfo/FantasyGoldInfo/packages/explorer/.fantasygold",
     "services": [
 	    "fantasygoldinfo-api",
         "fantasygoldinfo-ws",
@@ -20,7 +20,7 @@
         "db": {
         "mongodb": {
             "url": "mongodb://localhost:27017/",
-            "database": "fantasygoldinfo-mainnet2"
+            "database": "fantasygoldinfo-mainnet"
         },
         "rpc": {
             "protocol": "http",

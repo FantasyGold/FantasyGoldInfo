@@ -4,8 +4,8 @@
   "description": "An open-source frontend for the FantasyGoldinfo API",
   "scripts": {
     "dev": "nuxt",
-    "build": "FANTASYGOLDINFO_API_BASE_CLIENT=/api/ FANTASYGOLDINFO_API_BASE_SERVER=http://localhost:3001/fantasygoldinfo-api/ FANTASYGOLDINFO_API_BASE_WS=//localhost:3002/ws/ nuxt build",
-    "start": "PORT=12345 nuxt start"
+    "build": "FANTASYGOLDINFO_API_BASE_CLIENT=/api/ FANTASYGOLDINFO_API_BASE_SERVER=https://fantasygold.network/fantasygoldinfo-api/ FANTASYGOLDINFO_API_BASE_WS=//fantasygold.network/ws/ nuxt build",
+    "start": "PORT=12345 HOST=0.0.0.0 nuxt start"
   },
   "repository": {
     "type": "git",

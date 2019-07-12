@@ -45,11 +45,11 @@ export default {
       }
     }
   },
-  serverMiddleware: ['/home/silence/newfgc/fgcinfoinstall/packages/fantasygoldinfo-ui/middleware/ip.js'], // update this path
+  serverMiddleware: ['/home/fgcinfo/FantasyGoldInfo/packages/fantasygoldinfo-ui/middleware/ip.js'], // update this path
   plugins: [
-    '~/plugins/components.js',
-    '~/plugins/i18n.js',
-    '~/plugins/fantasygold-utils.js',
-    {src: '~/plugins/websocket.js', ssr: false}
+    '/home/fgcinfo/FantasyGoldInfo/packages/fantasygoldinfo-ui/plugins/components.js',
+    '/home/fgcinfo/FantasyGoldInfo/packages/fantasygoldinfo-ui/plugins/i18n.js',
+    '/home/fgcinfo/FantasyGoldInfo/packages/fantasygoldinfo-ui/plugins/fantasygold-utils.js',
+    {src: '/home/fgcinfo/FantasyGoldInfo/packages/fantasygoldinfo-ui/plugins/websocket.js', ssr: false}
   ]
 }
