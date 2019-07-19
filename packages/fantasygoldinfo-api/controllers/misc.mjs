@@ -16,7 +16,7 @@ export default class MiscController {
     if (height <= 8800) {
       supply = height * 20000
     } else {
-      supply = 1e8
+      supply = 1.76e8
       let reward = 5
       let interval = 985500
       let stakeHeight = height - 8800
@@ -53,7 +53,7 @@ export default class MiscController {
     if (this.node.chain.name === 'regtest' || height <= 8800) {
       ctx.body = height * 20000
     } else {
-      let supply = 1e8
+      let supply = 1.76e8
       let reward = 5
       let interval = 985500
       let stakeHeight = height - 8800
@@ -69,9 +69,9 @@ export default class MiscController {
   async circulatingSupply(ctx) {
     let {height} = this.node.getBlockTip()
     if (this.node.chain.name === 'regtest' || height <= 8800) {
-      ctx.body = this.node.chain.name === 'mainnet' ? height * 20000 - 12e6 : height * 20000
+      ctx.body = this.node.chain.name === 'mainnet' ? height * 20000 - 12,000,000 : height * 20000
     } else {
-      let supply = 1e8
+      let supply = 1.76e8
       let reward = 5
       let interval = 985500
       let stakeHeight = height - 8800
