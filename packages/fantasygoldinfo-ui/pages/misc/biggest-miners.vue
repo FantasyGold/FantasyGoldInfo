@@ -72,7 +72,7 @@
         return this.$store.state.blockchain
       },
       posBlocks() {
-        return this.blockchain.height - 5000
+        return this.blockchain.height - 8800
       },
       pages() {
         return Math.ceil(this.totalCount / 100)
