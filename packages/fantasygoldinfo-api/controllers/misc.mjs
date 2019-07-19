@@ -69,7 +69,7 @@ export default class MiscController {
   async circulatingSupply(ctx) {
     let {height} = this.node.getBlockTip()
     if (this.node.chain.name === 'regtest' || height <= 8800) {
-      ctx.body = this.node.chain.name === 'mainnet' ? height * 20000 - 12,000,000 : height * 20000
+      ctx.body = this.node.chain.name === 'mainnet' ? height * 20000 - 12e6 : height * 20000
     } else {
       let supply = 1.76e8
       let reward = 5
