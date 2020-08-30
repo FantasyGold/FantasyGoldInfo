@@ -12,7 +12,7 @@ fantasygoldinfo is splitted into 3 repos:
 * redis v5.0+
 
 ## Deploy fantasygold core
-1. `git clone --recursive https://github.com/fantasygold/fantasygold.git --branch=fantasygoldinfo`
+1. `git clone --recursive https://github.com/fantasygold/fantasygold-core.git --branch=fantasygoldinfo`
 2. Follow the instructions of [https://github.com/FantasyGold/FantasyGold-Core#building-fantasygold-core](https://github.com/FantasyGold/FantasyGold-Core#building-fantasygold-core) to build fantasygold
 3. Run `fantasygoldd` with `-logevents=1` enabled
 
